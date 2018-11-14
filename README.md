@@ -8,3 +8,10 @@ Using US as the base layout, with a few quirks
   * altgr+shift+[ = Å
   * altgr+shift+' = Ä
   * altgr+shift+; = Ö
+
+## Linux
+To use on linux add the following to ~/.xinitrc
+  ```
+  [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+  ```
+and move .Xmodmap to your home directory.
